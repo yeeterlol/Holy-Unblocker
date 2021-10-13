@@ -1,7 +1,8 @@
-// -------------------------------------------------------------
-// WARNING: this file is used by both the client and the server.
-// Do not use any browser or node-specific API!
-// -------------------------------------------------------------
+// -------------------
+// This file is shared both by the server and client.
+// Do not include any browser or node specific APIs
+// -------------------
+
 class CookieStore {
     constructor(val = ''){
         this.data = {};
